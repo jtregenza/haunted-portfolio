@@ -1,4 +1,5 @@
 import dynamic from 'next/dynamic'
+import Head from "next/head"
 
 const CMS_CONFIG = {}
 const Loading = () => (
@@ -15,6 +16,18 @@ const CMS = dynamic(
   { ssr: false, loading: Loading }
 )
 
-const Admin = () => <CMS />
+const Admin = () => {
+  return (
+    <>
+    <Head>
+      <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    </Head>
+    <div className="cms">
+      <CMS />
+    </div>
+    </>
+  )
+  
+}
 
 export default Admin
