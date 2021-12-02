@@ -14,10 +14,10 @@ const variants = {
 }
 
 
-const PlayPost = ({ postData, playPostsData }) => (
+const PlayPost = ({ playPostData, playPostsData }) => (
     <Layout>
       <Head>
-        <title>{postData.title} | {siteTitle}</title>
+        <title>{playPostData.title} | {siteTitle}</title>
       </Head>
       <Sidebar data={playPostsData} dataTitle="play"/>
       <AnimatePresence 
@@ -31,17 +31,17 @@ const PlayPost = ({ postData, playPostsData }) => (
 					variants={variants}
 					transition={{ type: 'linear' }}
 					className={styles.mainArticle}
-          key={postData.title}
+          key={playPostData.title}
 					>
 
         <header>
-          <h1>{postData.title}</h1>
+          <h1>{playPostData.title}</h1>
           <div className={styles.metadata}>
-            <small>{postData.date}</small>
-            <small>{postData.type}</small>
+            <small>{playPostData.date}</small>
+            <small>{playPostData.type}</small>
           </div>
         </header>
-      <div className={styles.articleContent} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+      <div className={styles.articleContent} dangerouslySetInnerHTML={{ __html: playPostData.contentHtml }} />
       
 
 
@@ -63,10 +63,10 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const playPostsData = getSortedPlaysData()
-  const postData = await getPlayData(params.id)
+  const playPostData = await getPlayData(params.id)
   return {
     props: {
-      postData,
+      playPostData,
       playPostsData
     }
   }

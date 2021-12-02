@@ -14,10 +14,10 @@ const variants = {
 }
 
 
-const ProcessPost = ({ postData, processPostsData }) => (
+const ProcessPost = ({ processPostData, processPostsData }) => (
     <Layout>
       <Head>
-        <title>{postData.title} | {siteTitle}</title>
+        <title>{processPostData.title} | {siteTitle}</title>
       </Head>
       <Sidebar data={processPostsData} dataTitle="process"/>
       <AnimatePresence 
@@ -31,17 +31,17 @@ const ProcessPost = ({ postData, processPostsData }) => (
 					variants={variants}
 					transition={{ type: 'linear' }}
 					className={styles.mainArticle}
-          key={postData.title}
+          key={processPostData.title}
 					>
 
         <header>
-          <h1>{postData.title}</h1>
+          <h1>{processPostData.title}</h1>
           <div className={styles.metadata}>
-            <small>{postData.date}</small>
-            <small>{postData.type}</small>
+            <small>{processPostData.date}</small>
+            <small>{processPostData.type}</small>
           </div>
         </header>
-      <div className={styles.articleContent} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+      <div className={styles.articleContent} dangerouslySetInnerHTML={{ __html: processPostData.contentHtml }} />
       
 
       
@@ -62,10 +62,10 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const processPostsData = getSortedProcessesData()
-  const postData = await getProcessData(params.id)
+  const processPostData = await getProcessData(params.id)
   return {
     props: {
-      postData,
+      processPostData,
       processPostsData
     }
   }

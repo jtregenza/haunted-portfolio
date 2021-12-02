@@ -14,10 +14,10 @@ const variants = {
 }
 
 
-const WorkPost = ({ postData, workPostsData }) => (
+const WorkPost = ({ workPostData, workPostsData }) => (
     <Layout>
       <Head>
-        <title>{postData.title} | {siteTitle}</title>
+        <title>{workPostData.title} | {siteTitle}</title>
       </Head>
       <Sidebar data={workPostsData} dataTitle="work"/>
       <AnimatePresence 
@@ -31,17 +31,17 @@ const WorkPost = ({ postData, workPostsData }) => (
 					variants={variants}
 					transition={{ type: 'linear' }}
 					className={styles.mainArticle}
-          key={postData.title}
+          key={workPostData.title}
 					>
  
         <header>
-          <h1>{postData.title}</h1>
+          <h1>{workPostData.title}</h1>
           <div className={styles.metadata}>
-            <small>{postData.date}</small>
-            <small>{postData.type}</small>
+            <small>{workPostData.date}</small>
+            <small>{workPostData.type}</small>
           </div>
         </header>
-      <div className={styles.articleContent} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+      <div className={styles.articleContent} dangerouslySetInnerHTML={{ __html: workPostData.contentHtml }} />
       
 
       
@@ -62,10 +62,10 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const workPostsData = getSortedWorksData()
-  const postData = await getWorkData(params.id)
+  const workPostData = await getWorkData(params.id)
   return {
     props: {
-      postData,
+      workPostData,
       workPostsData
     }
   }

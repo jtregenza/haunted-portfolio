@@ -15,10 +15,10 @@ const variants = {
 }
 
 
-const WritingPost = ({ postData, writingPostsData }) => (
+const WritingPost = ({ writingPostData, writingPostsData }) => (
     <Layout>
       <Head>
-        <title>{postData.title} | {siteTitle}</title>
+        <title>{writingPostData.title} | {siteTitle}</title>
       </Head>
       <Sidebar data={writingPostsData} dataTitle="writing"/>
       <AnimatePresence 
@@ -32,18 +32,18 @@ const WritingPost = ({ postData, writingPostsData }) => (
 					variants={variants}
 					transition={{ type: 'linear' }}
 					className={styles.mainArticle}
-          key={postData.title}
+          key={writingPostData.title}
 					>
 
           <TopBar exe="reading_this_today"/>
         <header>
-          <h1>{postData.title}</h1>
+          <h1>{writingPostData.title}</h1>
           <div className={styles.metadata}>
-            <small>{postData.date}</small>
-            <small>{postData.type}</small>
+            <small>{writingPostData.date}</small>
+            <small>{writingPostData.type}</small>
           </div>
         </header>
-      <div className={styles.articleContent} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+      <div className={styles.articleContent} dangerouslySetInnerHTML={{ __html: writingPostData.contentHtml }} />
       
       
       
@@ -63,10 +63,10 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const writingPostsData = getSortedWritingsData()
-  const postData = await getWritingData(params.id)
+  const writingPostData = await getWritingData(params.id)
   return {
     props: {
-      postData,
+      writingPostData,
       writingPostsData
     }
   }
