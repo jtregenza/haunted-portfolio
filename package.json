@@ -1,5 +1,6 @@
 {
   "name": "haunted-portfolio",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -19,7 +20,6 @@
     "remark-html": "^15.0.0"
   },
   "devDependencies": {
-    "@netlify/plugin-nextjs-experimental": "^0.0.6",
     "eslint": "7.32.0",
     "eslint-config-next": "12.0.4"
   }
