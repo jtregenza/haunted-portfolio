@@ -1,5 +1,4 @@
 module.exports = {
-	images: {
-		domains: ['via.placeholder.com'],
-	  },
+	reactStrictMode: true,
+	target: "serverless"
 }
