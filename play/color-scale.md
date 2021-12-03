@@ -3,7 +3,7 @@ title:  "Color Scale"
 type: play
 image: /images/projects/test4-compressor.jpg
 date:   ''
-thumbnail: /images/thumbnails/Group 90.png
+thumbnail: /images/thumbnails/Group_90.png
 excerpt:
   "The basic premise of the color scale was to be able to create based on a few cutters, fewer colors as possible a full color theme based on a scaling principle that was similar to the ones that were used in material design."
 ---

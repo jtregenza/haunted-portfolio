@@ -3,7 +3,7 @@ title: Outfit
 type: work
 image: /images/PXL_20201107_091454868.NIGHT_bw.png
 date: '2021-06-11 06:38:00'
-thumbnail: /images/thumbnails/Group 90.png
+thumbnail: /images/thumbnails/Group_90.png
 excerpt: Outfit automates the production of digital and print marketing
   materials with flexible, constraints-based templates.
 ---

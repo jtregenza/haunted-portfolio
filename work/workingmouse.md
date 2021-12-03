@@ -3,7 +3,7 @@ title:  "Working Mouse"
 type: work
 image: /images/projects/test6-compressor.jpg
 date:   '2017-08-11 12:08:00'
-thumbnail: /images/thumbnails/Group 90.png
+thumbnail: /images/thumbnails/Group_90.png
 excerpt:
   "In November 2016, I was hired by WorkingMouse as a Designer. WorkingMouse is an application services business. They build applications across multiple devices with hybrid apps."
 ---

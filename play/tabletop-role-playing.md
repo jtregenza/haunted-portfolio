@@ -3,7 +3,7 @@ title:  "Tabletop Role Playing"
 type: play
 image: /images/projects/test5-compressor.jpg
 date:   '2010-02-11 11:02:57'
-thumbnail: /images/thumbnails/Group 90.png
+thumbnail: /images/thumbnails/Group_90.png
 excerpt:
   "I used to act, one review of my performances stated I had chameleon-like changeability. I don't get to act anymore, truth be told the preparation, the ego and political nature of the theatre rubbed me the wrong way one too many times."
 ---

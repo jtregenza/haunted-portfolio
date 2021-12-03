@@ -3,7 +3,7 @@ title:  "Archive: Moving Beyond Burnout"
 date:   '2010-02-11 11:02:57'
 type: writing
 image: /images/projects/test2-compressor.jpg
-thumbnail: /images/thumbnails/Group 90.png
+thumbnail: /images/thumbnails/Group_90.png
 excerpt:
   "Since becoming a designer I've experienced it less and less but before then, it happened on an almost weekly basis. Burnout gets in the way of best laid plans. Often times I would plan out my day after a sleepless night of worry but the brick wall would have run at me by the time I had my morning coffee."
 ---

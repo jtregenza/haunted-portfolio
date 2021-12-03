@@ -3,7 +3,7 @@ title:  "The Green Twisted Tower"
 type: writing
 image: /images/projects/test1-compressor.jpg
 date:   '2020-06-04 19:58:00'
-thumbnail: /images/thumbnails/Group 90.png
+thumbnail: /images/thumbnails/Group_90.png
 excerpt:
   "A short story to be used as stimulus for young adults for their own stories."
 ---

@@ -3,7 +3,7 @@ title:  "Design beyond visuals"
 type: process
 date:   '2010-02-11 11:02:57'
 image: /images/projects/test2-compressor.jpg
-thumbnail: /images/thumbnails/Group 90.png
+thumbnail: /images/thumbnails/Group_90.png
 excerpt:
   "When my partner and I first started dated, her coworkers would ask her what I did for a living. She told them I was a designer, to which they immediately assumed that it meant that I designed clothes. She would then have to take the time to explain what I did in more detail."
 ---
@@ -18,6 +18,7 @@ When my partner and I first started dated, her coworkers would ask her what I di
 This is an original sin of the design craft, it's extremely broad and all encompassing term, with each coven believe they are the alpha and omega.
 
 As a designer you could be:
+
 - Product Designer (Physical Products)
 - Interior Designer
 - Fashion Designer

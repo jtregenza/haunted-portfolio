@@ -3,7 +3,7 @@ title:  "Archive: Freelance Guide - The Right Clients"
 date:   '2010-02-11 11:02:57'
 type: writing
 image: /images/projects/test2-compressor.jpg
-thumbnail: /images/thumbnails/Group 90.png
+thumbnail: /images/thumbnails/Group_90.png
 excerpt:
   "In the book, Good to Great (A book that aged poorly as soon as the GFC struck), Jim Collins writes that you need to get the right people on the bus, the wrong people off the bus and the right people on the right seats. He wrote this in regards to great companies and their employees but the same holds true for freelancers and their clients."
 ---

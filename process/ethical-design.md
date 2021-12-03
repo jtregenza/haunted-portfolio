@@ -3,7 +3,7 @@ title:  "Ethical Design"
 type: process
 image: /images/projects/test4-compressor.jpg
 date:   '2010-02-11 11:02:57'
-thumbnail: /images/thumbnails/Group 90.png
+thumbnail: /images/thumbnails/Group_90.png
 excerpt:
   "When I talk about ethical design I'm not just referring to the accessibility of a site or making sure that it is right for as many people as possible. Not that accessibility isn't part of ethical design (It really is, but it doesn't stop there)"
 ---

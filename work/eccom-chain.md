@@ -3,7 +3,7 @@ title:  "Eccom Chain"
 type: work
 image: /images/projects/test4-compressor.jpg
 date:   '2018-10-14 16:14:00'
-thumbnail: /images/thumbnails/Group 91.png
+thumbnail: /images/thumbnails/Group_91.png
 excerpt:
   "Ecomm Chain is a Texas based eCommerce platform for manufacturers, distributors and the end consumers. Using the cloud based system, users can build their product list and propagate single stores or multiple stores for distributors."
 ---

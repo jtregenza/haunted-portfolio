@@ -3,7 +3,7 @@ title:  "Grab That Moon"
 type: play
 image: /images/PXL_20210117_105302477_bw.png
 date:   '2010-02-11 11:02:57'
-thumbnail: /images/thumbnails/Group 90.png
+thumbnail: /images/thumbnails/Group_90.png
 excerpt:
   "The impetus of the phrase comes from a Chinese folklore tale in the kingdom of monkeys, where a group of monkeys try to fish the moon's reflection out of a lake, thinking they could then grab the moon. This idiom means useless attempt"
 ---

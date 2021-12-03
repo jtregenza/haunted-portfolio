@@ -3,7 +3,7 @@ title:  "Amel - Tales from Sam Hill"
 type: writing
 image: /images/PXL_20210502_020906137_bw.png
 date:   '2020-08-26 19:58:00'
-thumbnail: /images/thumbnails/Group 90.png
+thumbnail: /images/thumbnails/Group_90.png
 excerpt:
   "Part of the Tales from Sam Hill anthology. Amel establishes the story of the Straws and their work in Ferriotte Corporation"
 ---

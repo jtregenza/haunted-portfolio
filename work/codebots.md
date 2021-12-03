@@ -3,7 +3,7 @@ title:  "Codebots"
 type: work
 image: /images/IMGP23571_bw.png
 date:   '2018-09-14 17:27:00'
-thumbnail: /images/thumbnails/Group 90.png
+thumbnail: /images/thumbnails/Group_90.png
 
 excerpt:
   "Codebots is an AI-powered app building tool designed for people who aren’t classically trained in programming."

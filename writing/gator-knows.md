@@ -3,7 +3,7 @@ title:  "Gator Knows"
 type: writing
 image: /images/projects/test1-compressor.jpg
 date:   '2020-06-04 19:58:00'
-thumbnail: /images/thumbnails/Group 90.png
+thumbnail: /images/thumbnails/Group_90.png
 excerpt:
   A collection of columns written from the point of view of an anthropomorphic alligator man."
 ---

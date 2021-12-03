@@ -3,7 +3,7 @@ title:  "3D Art"
 date:   '2010-02-11 11:02:57'
 type: play
 image: /images/projects/3d-art/streets-of-oblivion.png
-thumbnail: /images/thumbnails/Group 90.png
+thumbnail: /images/thumbnails/Group_90.png
 excerpt:
   "Creating 3d models and landscapes has been a way for me to unwind and explore my interest for low poly art style. This lead me to be able to more things in game development and has helped understand vr/ar applications for product design."
 ---

@@ -3,7 +3,7 @@ title:  "Sam Hill"
 type: play
 image: /images/PXL_20210220_035051779_bw.png
 date:   '2010-02-11 11:02:57'
-thumbnail: /images/thumbnails/Group 90.png
+thumbnail: /images/thumbnails/Group_90.png
 excerpt:
   "The game of Sam Hill started as a farming sim set in the wild west with some witcher-esque detective elements. Then I got a little more ambitious."
 ---
