@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@netlify/plugin-nextjs": "^3.9.2",
     "framer-motion": "^5.3.0",
     "grey-matter": "^0.0.0",
     "netlify-cms-app": "^2.15.59",
