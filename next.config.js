@@ -2,7 +2,7 @@ module.exports = {
 	generateBuildId: () => 'build',
 	reactStrictMode: true,
 	images: {
-	  disableStaticImages: true
+	  disableStaticImages: false
 	},
 	webpack5: true
 };
