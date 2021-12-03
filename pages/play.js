@@ -4,10 +4,9 @@ import Image from 'next/image'
 import { siteTitle } from '../components/header'
 import Layout from '../components/layout'
 import Sidebar from '../components/sidebar'
-import styles from '../components/layout.module.css'
 import { getSortedPlaysData } from '../lib/play'
-import TopBar from '../components/topbar'
 import HeroPost from '../components/heroPost'
+import MorePost from '../components/morePosts'
 
 export async function getStaticProps() {
   const allPostsData = getSortedPlaysData();
@@ -42,18 +41,7 @@ const Play = ({writingPostsData, heroPost, morePosts}) =>  (
         {heroPost && (
           <HeroPost heroData={heroPost} slug="play"/>
             )}
-            <div className={styles.postCards}>
-          {morePosts.map(({ id, title, excerpt, thumbnail  }) => (
-            <div className={styles.card} key={id}>
-            <TopBar exe="main_post"/>
-          <header><Image src={thumbnail} width={50} height={50} alt={`thumbnail for ${title}`}/><h3>{title}</h3></header>
-            <p>{truncateString(excerpt, 100)}</p>
-            <Link href={`/play/${id}`} passHref>
-              <button>Read More</button>
-            </Link>
-            </div>
-          ))}
-          </div>
+           <MorePost moreData={morePosts} slug="play"/>
   
         </div>
       
