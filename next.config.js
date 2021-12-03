@@ -4,6 +4,5 @@ module.exports = {
 	images: {
 	  disableStaticImages: true
 	},
-	target: 'experimental-serverless-trace',
 	webpack5: true
 };
