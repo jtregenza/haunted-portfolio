@@ -23,8 +23,8 @@ export default function HeroPost({heroData, slug}) {
 				<div className={styles.heroImage}>
 					<Image 
 					src={heroData.image}
-					height="650"
-					width="400"
+					// height="650"
+					// width="400"
 					layout="fill"
 					alt={heroData.title}
 					/>
