@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Layout from '../components/layout'
-import styles from '../styles/Home.module.css'
+import styles from '../components/layout.module.css'
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
       <main className={styles.main}>
       <div className={styles.homePage}>
       <h1>Welcome to the website of Josh Tregenza</h1>
-      <article className={openingBlurb}><p><code>designer, storyteller, craftsman</code></p>
+      <article className={styles.openingBlurb}><p><code>designer, storyteller, craftsman</code></p>
       <p>As a <code>designer</code>, it is my job to make sure that businesses are putting the wellbeing of people over profits, ego and consumption so that they can find greater success.</p>
       <p>As a <code>storyteller</code>, I bring people together and uplift them with the words, products and ideas that are told.</p>
       <p>As a <code>craftsman</code>, I seek to improvise with care and follow the delightfully absurd to appreciate considerate work.</p>
