@@ -21,7 +21,11 @@
 	
 	}
 	
-	.topNav a {
+	.topNav a,
+	.navButton {
+		background: var(--dynamic-background-color);
+		color: var(--dynamic-text-color);
+		border-radius: 0;
 		margin-bottom: 0;
 		padding: 0.25rem 1rem;
 		text-decoration: none;
@@ -32,9 +36,26 @@
 		overflow: hidden;
 		position: relative;
 		z-index: 1;
+		border: 0;
 		transition: all 0.4s ease-in-out;
 	}
-	.topNav a:before {
+
+	.navButton {
+		border-left: 2px solid;
+		border-right: 2px solid;
+		font: var(--secondary-font-family);
+		font-size: 1em;
+
+	}
+
+	.colorChanger {
+		position: absolute;
+		border: 2px solid;
+		padding: 0.5rem;
+	}
+
+	.topNav a:before,
+	.navButton:before {
 		content: '';
 		height: 100%;
 		width: 100%;
@@ -45,22 +66,18 @@
 		z-index: -1;
 		transition: bottom 0.4s ease-in-out;
 	}
-	.topNav a:hover:before {
+	.topNav a:hover:before,
+	.navButton:hover:before {
 		bottom: 0;
 	}
 
-	.topNav a:hover {
+	.topNav a:hover,
+	.navButton:hover {
 		color: var(--dynamic-background-color);
 	}
 
 	
-	.topNav button{
-		margin-left: auto;
-	}
 	@media screen and (max-width: 800px) {
-		.topNav button {
-			margin-left: 0;
-		}
 		.topNav .hidden + button {
 			margin-left: auto;
 		}
@@ -70,6 +87,9 @@
 	.topNav .active {
 		font-weight: 600;
 		text-decoration: underline;
+	}
+	.menu {
+		margin-right: auto;
 	}
 	
 	.menuLogo {
@@ -102,21 +122,21 @@
 	}
 	
 	.toggle {
-	width: 32px;
-	min-width: 32px;
-	max-width: 32px;
-	height: 100%;
-	background: transparent;
-	border: 0px solid;
-	border-left: 2px solid var(--dynamic-text-color);
-	color: var(--dynamic-text-color);
-	cursor: pointer;
+		width: 32px;
+		min-width: 32px;
+		max-width: 32px;
+		height: 100%;
+		background: transparent;
+		border: 0px solid;
+		border-left: 2px solid var(--dynamic-text-color);
+		color: var(--dynamic-text-color);
+		cursor: pointer;
 	}
 	
 	.sidebar header:not(.sidebarHeader) {
-	display: flex;
-	flex-direction: column;
-	height: 100%;
+		display: flex;
+		flex-direction: column;
+		height: 100%;
 	}
 	
 	.contactButton {

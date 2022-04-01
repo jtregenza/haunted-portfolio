@@ -11,11 +11,61 @@
   --secondary-font-family: 'Fira Code', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   --pattern-halftone: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAHElEQVQYV2NUVFT8f//+fUYGBgYGMAEDcA5IBQCKJQVmn76DhAAAAABJRU5ErkJggg==");;
 
+
+
+
+
+
+
   --dynamic-background-color: var(--primary-color-dark);
   --dynamic-text-color: var(--primary-color-light);
   
   font-size: calc(1rem + 0.5vw);
 }
+
+/* Lightless Room [Dark] */
+[theme="lightless-room"] {
+  --dynamic-background-color: var(--primary-color-dark);
+  --dynamic-text-color: var(--primary-color-light);
+}
+
+/* Blinding Truth [Light] */
+[theme="blinding-truth"] {
+  --dynamic-background-color: var(--primary-color-light);
+  --dynamic-text-color: var(--primary-color-dark);
+}
+
+/* Ruby Absolution [Red] */
+[theme="ruby-absolution"] {
+  --dynamic-background-color: #8C0C0C;
+  --dynamic-text-color: var(--primary-color-light);
+}
+/* Brutal Moments [Blue] */
+[theme="brutal-moments"] {
+  --dynamic-background-color: #2800D7;
+  --dynamic-text-color: var(--primary-color-light);
+}
+/* Verdant Gravity [Green] */
+[theme="verdant-gravity"] {
+  --dynamic-background-color: #045B37;
+  --dynamic-text-color: var(--primary-color-light);
+}
+/* Masculine Plush [Pink] */
+[theme="masculine-plush"] {
+  --dynamic-background-color: #FFB7C5;
+  --dynamic-text-color: var(--primary-color-dark);
+}
+/* Desert Nostalgia [Sand] */
+[theme="desert-nostalgia"] {
+  --dynamic-background-color: #CCC8B1;
+  --dynamic-text-color: var(--primary-color-dark);
+}
+/* Royal Washing [Purple] */
+[theme="royal-washing"] {
+  --dynamic-background-color: #C8AFFD;
+  --dynamic-text-color: var(--primary-color-dark);
+}
+
 
 
 *,
@@ -40,8 +90,12 @@ color: var(--dynamic-text-color);
 }
 
 a {
-color: var(--dynamic-text-color);
+  color: var(--dynamic-text-color);
+}
 
+code {
+  background: var(--dynamic-text-color);
+  color: var(--dynamic-background-color);
 }
 
 

@@ -2,10 +2,29 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { useRouter } from "next/router";
 import styles from './layout.module.css'
+import NavItem from './navItem';
+import { motion } from 'framer-motion';
 
 export const Navbar = () => {
   const router = useRouter();
   const [active, setActive] = useState(false);
+
+
+  const colors = [
+    {
+        name: "Lightless Room",
+        id: "lightless-room",
+        label: "lightless room [dark]" ,
+    },     {
+      name: "Blinding Truth",
+      id: "blinding-truth",
+      label: "blinding truth [light]" ,
+  },     {
+      name: "Lightless Room",
+      id: "lightless-room",
+      label: "lightless room [dark]" ,
+  },
+];
 
   const handleClick = () => {
     setActive(!active);
@@ -32,8 +51,20 @@ export const Navbar = () => {
             
           </div>
         </div>
-		<button>settings</button>
-        <Link href="/" className={router.pathname == "/" ? styles.active : ""}>josh_tregenza</Link> 
+        <NavItem name="settings">
+          <motion.div 
+
+          initial={{top: -500}}
+          animate={{top: '1.85rem' }} 
+          exit={{top:-500}}
+          className={styles.colorChanger}>
+            theme colour
+            <button>lightless room [dark]</button>
+            <button>blinding truth [light]</button>
+            <button>ruby absolution [red]</button>
+          </motion.div>
+          </NavItem>
+          <Link href="/" className={router.pathname == "/" ? styles.active : ""}>josh_tregenza</Link> 
         </header>
   );
 };
