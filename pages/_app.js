@@ -41,7 +41,7 @@ function MyApp({ Component, pageProps, router }) {
                     type: 'website',
                     locale: 'en_IE',
                     url,
-                    description: 'The personal website for James Wallis, developer.',
+                    description: 'The personal website for Josh Tregenza, designer.',
                     site_name: 'Josh Tregenza | designer | storyteller | craftsman',
                     images: [],
                 }}
@@ -55,7 +55,8 @@ function MyApp({ Component, pageProps, router }) {
 
       <Component {...pageProps} key={url}/>
   </AnimatePresence>
-  <Logo/>
+
+  
   </>
   )
 }

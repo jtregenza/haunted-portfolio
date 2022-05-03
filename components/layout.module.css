@@ -744,3 +744,51 @@
 	.postCards .topBar svg {
 		margin: 0rem 0.25rem;
 	}
+
+	.homePage {
+		display: grid;
+		min-width: 40%;
+		max-width: 40%;
+		width: 100%;
+		height: 80%;
+		background: var(--dynamic-background-color);
+		color: var(--dynamic-text-color);
+		border: 2px solid var(--dynamic-text-color);
+		overflow: auto;
+		font-size: 0.75rem;
+		margin-left: auto;
+		margin-right: 4rem;
+		margin-top: 2rem;
+	}
+
+	.homePage header{
+		display: grid;
+		grid-template-columns: 150px 0.7fr;
+		grid-gap: 1rem;
+		margin-top: 2rem;
+		margin-left: 2rem;
+	}
+
+	.main .homePage header h1 {
+		line-height: 1.1;
+		font-size: 1.5rem;
+	}
+
+	.homePage .openingBlurb{
+		margin: 2rem;
+		margin-top: 0.5rem;
+	}
+
+	.homePage .logo {
+		position: unset;
+		margin: 0 auto;
+		margin-bottom: 2rem;
+	}
+
+	.colorChanger {
+		background: var(--dynamic-background-color);
+		margin-top:9px;
+		display: flex;
+		flex-direction: column;
+		z-index: 4;
+	}

@@ -2,6 +2,7 @@ import Header from "./header";
 import Sidebar from "./sidebar";
 import styles from './layout.module.css'
 import { motion } from "framer-motion";
+import Logo from "./logo";
 
 const name = 'Josh Tregenza'
 
@@ -28,7 +29,11 @@ const Layout = ({ children, home }) => (
 					</motion.main>
 			</section>
 		</div>
+		{!home &&
+		<Logo/>
+	  }
 	</div>
+
   );
 
 
