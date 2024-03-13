@@ -52,13 +52,16 @@
 		position: absolute;
 		border: 2px solid;
 		padding: 0.5rem;
-		font-family:  var(--secondary-font-family);;
+		font-family:  var(--secondary-font-family);
+		color: var(--dynamic-text-color);
 	}
 
 	.colorChanger button{
 		border: none;
 		background: transparent;
 		padding: 0.25rem 0.5rem;
+		font-family:  var(--secondary-font-family);
+		color: var(--dynamic-text-color);
 	}
 
 	.topNav a:before,
@@ -246,6 +249,8 @@
 	height: 100%;
 	overflow-y: auto;
 	overflow-x: hidden;
+	background: var(--dynamic-background-color);
+	color: var(--dynamic-text-color);
 	}
 	
 	/* .main header {
