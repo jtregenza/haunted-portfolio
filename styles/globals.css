@@ -24,19 +24,19 @@
 }
 
 /* Lightless Room [Dark] */
-[theme="lightless-room"] {
+[theme="lightless-room"], [theme="dark"] {
   --dynamic-background-color: var(--primary-color-dark);
   --dynamic-text-color: var(--primary-color-light);
 }
 
 /* Blinding Truth [Light] */
-[theme="blinding-truth"] {
+[theme="blinding-truth"], [theme="light"] {
   --dynamic-background-color: var(--primary-color-light);
   --dynamic-text-color: var(--primary-color-dark);
 }
 
 /* Ruby Absolution [Red] */
-[theme="ruby-absolution"] {
+[theme="ruby-absolution"], [theme="red"] {
   --dynamic-background-color: #8C0C0C;
   --dynamic-text-color: var(--primary-color-light);
 }

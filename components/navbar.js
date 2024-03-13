@@ -31,6 +31,8 @@ export const Navbar = () => {
     setActive(!active);
   };
 
+  
+
   return (
       <header theme={color} className={`${
             active ? '' : styles.mobile
