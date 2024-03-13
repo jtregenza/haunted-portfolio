@@ -70,7 +70,7 @@
 /* Desert Nostalgia [Sand] */
 [theme="desert-nostalgia"],
 [theme="sand"],
-[theme="dand"] + div {
+[theme="sand"] + div {
   --dynamic-background-color: #CCC8B1;
   --dynamic-text-color: var(--primary-color-dark);
 }
