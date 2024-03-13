@@ -31,7 +31,7 @@ export const Navbar = () => {
     setActive(!active);
   };
 
-  
+
 
   return (
       <header theme={color} className={`${
@@ -65,6 +65,11 @@ export const Navbar = () => {
             <button onClick={() => setColor('dark')}>lightless room [dark]</button>
             <button onClick={() => setColor('light')}>blinding truth [light]</button>
             <button onClick={() => setColor('red')}>ruby absolution [red]</button>
+            <button onClick={() => setColor('blue')}>brutal moments [blue]</button>
+            <button onClick={() => setColor('green')}>verdant gravity [green]</button>
+            <button onClick={() => setColor('pink')}>masculine plush [pink]</button>
+            <button onClick={() => setColor('sand')}>desert nostalgia [sand]</button>
+            <button onClick={() => setColor('red')}>royal washing [purple]</button>
           </motion.div>
           </NavItem>
           <Link href="/" className={router.pathname == "/" ? styles.active : ""}>josh_tregenza</Link> 

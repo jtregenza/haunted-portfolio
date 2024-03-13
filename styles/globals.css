@@ -24,44 +24,60 @@
 }
 
 /* Lightless Room [Dark] */
-[theme="lightless-room"], [theme="dark"] {
+[theme="lightless-room"], 
+[theme="dark"],
+[theme="dark"] + div {
   --dynamic-background-color: var(--primary-color-dark);
   --dynamic-text-color: var(--primary-color-light);
 }
 
 /* Blinding Truth [Light] */
-[theme="blinding-truth"], [theme="light"] {
+[theme="blinding-truth"],
+[theme="light"],
+[theme="light"] + div {
   --dynamic-background-color: var(--primary-color-light);
   --dynamic-text-color: var(--primary-color-dark);
 }
 
 /* Ruby Absolution [Red] */
-[theme="ruby-absolution"], [theme="red"] {
+[theme="ruby-absolution"], 
+[theme="red"],
+[theme="red"] + div {
   --dynamic-background-color: #8C0C0C;
   --dynamic-text-color: var(--primary-color-light);
 }
 /* Brutal Moments [Blue] */
-[theme="brutal-moments"] {
+[theme="brutal-moments"],
+[theme="blue"],
+[theme="blue"] + div {
   --dynamic-background-color: #2800D7;
   --dynamic-text-color: var(--primary-color-light);
 }
 /* Verdant Gravity [Green] */
-[theme="verdant-gravity"] {
+[theme="verdant-gravity"],
+[theme="green"],
+[theme="green"] + div {
   --dynamic-background-color: #045B37;
   --dynamic-text-color: var(--primary-color-light);
 }
 /* Masculine Plush [Pink] */
-[theme="masculine-plush"] {
+[theme="masculine-plush"],
+[theme="pink"],
+[theme="pink"] + div {
   --dynamic-background-color: #FFB7C5;
   --dynamic-text-color: var(--primary-color-dark);
 }
 /* Desert Nostalgia [Sand] */
-[theme="desert-nostalgia"] {
+[theme="desert-nostalgia"],
+[theme="sand"],
+[theme="dand"] + div {
   --dynamic-background-color: #CCC8B1;
   --dynamic-text-color: var(--primary-color-dark);
 }
 /* Royal Washing [Purple] */
-[theme="royal-washing"] {
+[theme="royal-washing"],
+[theme="purple"],
+[theme="purple"] + div {
   --dynamic-background-color: #C8AFFD;
   --dynamic-text-color: var(--primary-color-dark);
 }

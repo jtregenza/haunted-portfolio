@@ -43,7 +43,7 @@
 	.navButton {
 		border-left: 2px solid;
 		border-right: 2px solid;
-		font: var(--secondary-font-family);
+		font-family: var(--secondary-font-family);
 		font-size: 1em;
 
 	}
@@ -52,6 +52,13 @@
 		position: absolute;
 		border: 2px solid;
 		padding: 0.5rem;
+		font-family:  var(--secondary-font-family);;
+	}
+
+	.colorChanger button{
+		border: none;
+		background: transparent;
+		padding: 0.25rem 0.5rem;
 	}
 
 	.topNav a:before,
