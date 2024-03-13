@@ -8,7 +8,7 @@ import { motion } from 'framer-motion';
 export const Navbar = () => {
   const router = useRouter();
   const [active, setActive] = useState(false);
-
+  const [color, setColor] = useState('')
 
   const colors = [
     {
@@ -26,12 +26,13 @@ export const Navbar = () => {
   },
 ];
 
+
   const handleClick = () => {
     setActive(!active);
   };
 
   return (
-      <header className={`${
+      <header theme={color} className={`${
             active ? '' : styles.mobile
           } ${styles.topNav}` }>
         <button className={styles.menuLogo} onClick={handleClick}> Menu <span>{`${ active ? '▴' : '▾'}`}</span></button> 
@@ -59,9 +60,9 @@ export const Navbar = () => {
           exit={{top:-500}}
           className={styles.colorChanger}>
             theme colour
-            <button>lightless room [dark]</button>
-            <button>blinding truth [light]</button>
-            <button>ruby absolution [red]</button>
+            <button onClick={() => setColor('dark')}>lightless room [dark]</button>
+            <button onClick={() => setColor('light')}>blinding truth [light]</button>
+            <button onClick={() => setColor('red')}>ruby absolution [red]</button>
           </motion.div>
           </NavItem>
           <Link href="/" className={router.pathname == "/" ? styles.active : ""}>josh_tregenza</Link> 

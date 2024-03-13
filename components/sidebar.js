@@ -31,7 +31,7 @@ export default function Sidebar({ data, dataTitle}) {
               </Link></li>
           ))}
           </ul>
-            <a className={styles.contactButton} href="#">contact</a>
+            <a className={styles.contactButton} href="mailto:josh@joshtregenza.com">contact</a>
 			{/* Turn this into modal cta */}
             
         <button className={`${styles.menuLogo} ${styles.articleListToggle}`} onClick={handleClick}> <span>{`${ active ? '▴' : '▾'}`}</span></button>
