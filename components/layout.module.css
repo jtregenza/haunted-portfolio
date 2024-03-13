@@ -12,7 +12,7 @@
 .topNav {
 	width: 100%;
 	background: var(--dynamic-background-color);
-	border: 2px solid;
+	border: 2px solid var(--dynamic-text-color);
 	font-family: var(--secondary-font-family);
 	display: flex;
 	align-items: center;
