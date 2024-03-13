@@ -69,7 +69,7 @@ export const Navbar = () => {
             <button onClick={() => setColor('green')}>verdant gravity [green]</button>
             <button onClick={() => setColor('pink')}>masculine plush [pink]</button>
             <button onClick={() => setColor('sand')}>desert nostalgia [sand]</button>
-            <button onClick={() => setColor('red')}>royal washing [purple]</button>
+            <button onClick={() => setColor('purple')}>royal washing [purple]</button>
           </motion.div>
           </NavItem>
           <Link href="/" className={router.pathname == "/" ? styles.active : ""}>josh_tregenza</Link> 
