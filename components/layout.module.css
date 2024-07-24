@@ -810,6 +810,9 @@
 		position: absolute;
 		top: 4rem;
 		left: 4rem;
+		color: var(--dynamic-text-color);
+		height: 2rem;
+		width: 1.5rem;
 
 	}
 
