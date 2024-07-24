@@ -432,6 +432,7 @@
 
 	.articleContent a {
 		display: unset;
+		text-decoration: underline;
 	}
 	
 	.footnoteRef,
