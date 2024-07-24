@@ -30,6 +30,10 @@ export default function Home() {
       <Logo/>
       </div>
 
+      <a className={styles.desktopIcon}>
+        <div className={styles.desktopSquare}></div>
+        <p>KBBQ threejs concept</p>
+      </a>
     </div>
     </Layout>
   )

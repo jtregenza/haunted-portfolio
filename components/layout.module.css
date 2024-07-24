@@ -805,3 +805,16 @@
 		flex-direction: column;
 		z-index: 4;
 	}
+
+	.desktopIcon {
+		position: absolute;
+		top: 4rem;
+		left: 4rem;
+
+	}
+
+	.desktopSquare {
+		height: 1.5rem;
+		width: 1.5rem;
+		background: var(--dynamic-text-color);
+	}
