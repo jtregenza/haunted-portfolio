@@ -10,4 +10,8 @@ excerpt:
 
 In 2021 I founded a design studio, Storytale Stuido, with my co-founder Isaac Joe Kong. Together we work with driven startup founders who want to turn their ideas into the best stories in the world.
 
+Stories are the core of all endevours in the world. At the heart of all there resides a fire to bring their stories to life. 
+
+We worked along side our client's to 
+
 You can see our work at [storytale.studio](https://storytale.studio)

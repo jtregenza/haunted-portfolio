@@ -9,7 +9,7 @@ excerpt:
 ---
 
 ## Brandbook for the game Sam Hill
-follow this: https://medium.com/@merryh/how-to-build-a-brand-handbook-brandbook-876f9c8644eb
+<!-- follow this: https://medium.com/@merryh/how-to-build-a-brand-handbook-brandbook-876f9c8644eb -->
 
 
 The game of Sam Hill started as a farming sim set in the wild west with some witcher-esque detective elements. Then I got a little more ambitious.
