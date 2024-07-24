@@ -648,10 +648,10 @@
 	
 	.desktopIcon {
 		position: absolute;
-		bottom: 1rem;
-		left: 1rem;
+		/* bottom: 1rem; */
+		/* left: 1rem; */
 		font-size: 0.75rem;
-		color: black;
+		/* color: black; */
 		display: flex;
 		flex-direction: column;
 	}
