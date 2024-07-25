@@ -7,18 +7,11 @@ thumbnail: /images/thumbnails/Group_90.png
 excerpt:
   "They Came From the Silver Screen is a podcast that looks at films and deconstructs the societal issues within them. Episodes range from the the latest film to a deep dive into a collection of films from a director. "
 ---
-*Note: The podcast is currently on hiatus*
+<!-- *Note: The podcast is currently on hiatus* -->
 
-
+![They Came From the Silver Screen](/images/projects/tcftss.png "They Came From the Silver Screen")
 
 They Came From the Silver Screen is a podcast that looks at films and deconstructs the societal issues within them. Episodes range from the the latest film to a deep dive into a collection of films from a director. 
 
 Each episode is hosted by Damian Danaher and myself, where I do the audio production and the design.
 
-## What was it about 
-
-## Creating the brand 
-
-## Finding the voice 
-
-## Off shoots
