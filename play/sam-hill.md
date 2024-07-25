@@ -8,7 +8,7 @@ excerpt:
   "The game of Sam Hill started as a farming sim set in the wild west with some witcher-esque detective elements. Then I got a little more ambitious."
 ---
 
-## Brandbook for the game Sam Hill
+## Sam Hill a third-person episodic space western 
 <!-- follow this: https://medium.com/@merryh/how-to-build-a-brand-handbook-brandbook-876f9c8644eb -->
 
 ![Sam Hill Title](/images/projects/sam-hill-title-card.png "Sam Hill Title")
