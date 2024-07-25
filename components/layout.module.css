@@ -775,11 +775,16 @@
 	}
 
 	.homePage header{
-		display: grid;
+		display: flex;
 		grid-template-columns: 150px 0.7fr;
+		flex-wrap: wrap;
 		grid-gap: 1rem;
 		margin-top: 2rem;
 		margin-left: 2rem;
+	}
+
+	.homePage header > span {
+		min-width: 9rem;
 	}
 
 	.main .homePage header h1 {
