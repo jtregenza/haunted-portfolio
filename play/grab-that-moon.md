@@ -8,13 +8,10 @@ excerpt:
   "The impetus of the phrase comes from a Chinese folklore tale in the kingdom of monkeys, where a group of monkeys try to fish the moon's reflection out of a lake, thinking they could then grab the moon. This idiom means useless attempt"
 ---
 
+![Grab That Moon](/images/projects/grab-that-moon.png "Grab That Moon")
+
 ## The meaning behind the moon
 The impetus of the phrase comes from a Chinese folklore tale in the kingdom of monkeys, where a group of monkeys try to fish the moon's reflection out of a lake, thinking they could then grab the moon. This idiom means “useless attempt”. In Chinese this is expressed as _shuǐ zhōng lāo yuè_ or fish for the moon in the water.
 
 Though the folklore tells the tale of futility, To Grab That Moon is to strive to do the impossible even though you know you may actually grab it. It's a mantra of hope, ambition and perseverance.
 
-## The exploration in design
-
-## Out in the wild
-
-## the philosphy continues
