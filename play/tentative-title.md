@@ -8,6 +8,8 @@ excerpt:
   "A couples project of making art and music to study and/or work to"
 ---
 
+![Tentative Title](/images/projects/tentative-title.png "Tentative Title")
+
 In 2023, my partner and I created Tentative Tale. We are both creative and wanted to try our hand at taking our art: Her illustrations and my 3d art and produced lofi music to put behind it. 
 
 This allowed us to make seamingly random art with intention. It wasn't a long lived project due to our busy lifestyle but a project that brought us together and working on something to each of our strengths.
