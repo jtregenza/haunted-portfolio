@@ -11,7 +11,7 @@ excerpt:
 ## Brandbook for the game Sam Hill
 <!-- follow this: https://medium.com/@merryh/how-to-build-a-brand-handbook-brandbook-876f9c8644eb -->
 
-![Sam Hill Title](/images/projects/sam-hill-title.png "Sam Hill Title")
+![Sam Hill Title](/images/projects/sam-hill-title-card.png "Sam Hill Title")
 
 The game of Sam Hill started as a farming sim set in the wild west with some witcher-esque detective elements. Then I got a little more ambitious.
 
