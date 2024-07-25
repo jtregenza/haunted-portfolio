@@ -13,7 +13,7 @@ The impetus of the phrase comes from a Chinese folklore tale in the kingdom of m
 
 Though the folklore tells the tale of futility, To Grab That Moon is to strive to do the impossible even though you know you may actually grab it. It's a mantra of hope, ambition and perseverance.
 
-## the exploration in design
+## The exploration in design
 
 ## Out in the wild
 

@@ -11,6 +11,7 @@ excerpt:
 ## Brandbook for the game Sam Hill
 <!-- follow this: https://medium.com/@merryh/how-to-build-a-brand-handbook-brandbook-876f9c8644eb -->
 
+![Sam Hill Title](/images/projects/sam-hill-title.png "Sam Hill Title")
 
 The game of Sam Hill started as a farming sim set in the wild west with some witcher-esque detective elements. Then I got a little more ambitious.
 
@@ -20,3 +21,4 @@ The player takes control of their *customisable character* and are let loose on 
 
 The game is a 3d third person action adventure game built in unity.
 
+Progress on the game is slow as I am working on it in my free time, a lot of blockouts to find the true fun of the game through small and meaningful iterations.
