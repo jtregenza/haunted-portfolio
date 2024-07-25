@@ -8,11 +8,13 @@ excerpt:
   "Woodworking"
 ---
 
+![Woodworking](/images/projects/woodworking.png "Woodworking")
+
 As a predominatly digital creator, what you build is intagible. Taking up the hobby of wood working comes from an initial place of the tangible.
 
 There is a form of relaxation of taking the raw materials and making something out of it.
 
-## Craftsmenship
+## Craft work
 
 Wood working is a craft, I don't think any one disputes that. I believe the same is said about design and so the skills, tactics, processes and improvisations are interchangable between both crafts, it is the tool and output that change and their alignment with the impact created.
 
