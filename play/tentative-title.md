@@ -16,7 +16,7 @@ This allowed us to make seamingly random art with intention. It wasn't a long li
 
 I built out the brand for Tentative Title, aligning with a wabi sabi style and design patterns for 'tickets' so that it could be update and output rapidly. THe patterns allowed for different design iterations to work across a variety of motion and static images. 
 
-You can watch [here]('https://youtu.be/2x7Spfe5bl0?si=A4Q6NDVYqSElcsg8')
+You can watch [here](https://youtu.be/2x7Spfe5bl0?si=A4Q6NDVYqSElcsg8)
 
 <div class="iframe">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2x7Spfe5bl0?si=wSFmCp14Gqx9voZX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
