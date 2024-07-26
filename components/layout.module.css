@@ -831,8 +831,15 @@
 		align-items: end;
 		justify-content: center;
 		background: var(--dynamic-text-color);
+		mask-image: url('/images/meat.svg');
+		mask-repeat: no-repeat;
+		mask-size: contain;
 	}
+
 	.desktopSquare img {
 		background: var(--dynamic-background-color);
 		mask-image: url('/images/meat.svg');
+		mask-repeat: no-repeat;
+		mask-size: contain;
+		display: none;
 	}
