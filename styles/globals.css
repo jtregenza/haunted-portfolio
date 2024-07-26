@@ -92,7 +92,7 @@ box-sizing: border-box;
 body {
 display: flex;
 flex-direction: column;
-height: 100vh;
+height: 100dvh;
 font-family: var(--primary-font-family);
 margin: 0;
 overflow: hidden;
@@ -163,7 +163,7 @@ h1 {
 	
 	section {
 	width: 100vw;
-	height: calc(100vh - 2rem);
+	height: calc(100dvh - 2rem);
 	}
   @media (max-width: 600px) {
     section {
