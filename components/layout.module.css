@@ -864,6 +864,7 @@
 		mask-image: url('/images/meat.svg');
 		mask-repeat: no-repeat;
 		mask-size: contain;
+		transform: rotate(5deg);
 	}
 
 	.desktopSquare3d {
@@ -876,6 +877,7 @@
 		mask-image: url('/images/d20.svg');
 		mask-repeat: no-repeat;
 		mask-size: contain;
+		transform: rotate(-2deg);
 	}
 	.desktopSquareDragon {
 		height: 3rem;	
@@ -887,4 +889,5 @@
 		mask-image: url('/images/dragon.svg');
 		mask-repeat: no-repeat;
 		mask-size: contain;
+		transform: rotate(2deg);
 	}
