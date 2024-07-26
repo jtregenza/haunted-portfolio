@@ -709,6 +709,7 @@
 		.mainArticle {
 			margin: 0;
 			border-top: 0;
+			height: unset;
 		}
 	}
 
@@ -774,6 +775,12 @@
 		margin-top: 2rem;
 	}
 
+	@media screen and (max-width: 800px) {
+		.homePage {
+			margin: 0.5rem;
+		}
+	}
+
 	.homePage header{
 		display: flex;
 		grid-template-columns: 150px 0.7fr;
@@ -819,13 +826,14 @@
 		top: 4rem;
 		left: 4rem;
 		color: var(--dynamic-text-color);
+		font-family: var(--secondary-font-family);
 		height: auto;
 		width: 3rem;
 
 	}
 
 	.desktopSquare {
-		height: 3.5rem;	
+		height: 3rem;	
 		width: 3rem;
 		display: flex;
 		align-items: end;
