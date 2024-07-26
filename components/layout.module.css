@@ -779,6 +779,9 @@
 		.homePage {
 			margin: 0.5rem;
 		}
+		.homePage .openingBlurb {
+			margin: 0.25rem;
+		}
 	}
 
 	.homePage header{
