@@ -842,6 +842,7 @@
 	.desktopIcon {
 		color: var(--dynamic-text-color);
 		font-family: var(--secondary-font-family);
+		font-size: 0.6rem;
 		height: auto;
 		width: 3rem;
 
