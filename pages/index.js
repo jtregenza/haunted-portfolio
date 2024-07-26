@@ -41,6 +41,11 @@ export default function Home() {
         </div>
         <p>3d Storytale Site</p>
       </a>
+      <a rel="noreferrer" href="https://remarkable-belekoy-8a27f8.netlify.app/" target="_blank" className={styles.desktopIcon}>
+        <div className={styles.desktopSquareDragon}>
+        </div>
+        <p>Degenerate 5e Tournament</p>
+      </a>
       </div>
     </div>
     </Layout>

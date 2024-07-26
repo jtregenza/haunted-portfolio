@@ -647,7 +647,7 @@
 	}
 	
 	.desktopIcon {
-		position: absolute;
+		/* position: absolute; */
 		/* bottom: 1rem; */
 		/* left: 1rem; */
 		font-size: 0.75rem;
@@ -874,6 +874,17 @@
 		justify-content: center;
 		background: var(--dynamic-text-color);
 		mask-image: url('/images/d20.svg');
+		mask-repeat: no-repeat;
+		mask-size: contain;
+	}
+	.desktopSquare3d {
+		height: 3rem;	
+		width: 3rem;
+		display: flex;
+		align-items: end;
+		justify-content: center;
+		background: var(--dynamic-text-color);
+		mask-image: url('/images/dragon.svg');
 		mask-repeat: no-repeat;
 		mask-size: contain;
 	}
