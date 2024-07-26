@@ -779,6 +779,7 @@
 		.homePage {
 			margin: 0.5rem;
 			max-width: unset;
+			height: unset;
 		}
 		.homePage .openingBlurb {
 			margin: 0.25rem;
