@@ -818,6 +818,7 @@
 		.homePage header,
 		.homePage .openingBlurb  {
 			margin: 0.5rem;
+			width: unset;
 		}
 	}
 
