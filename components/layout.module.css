@@ -778,6 +778,7 @@
 	@media screen and (max-width: 800px) {
 		.homePage {
 			margin: 0.5rem;
+			max-width: unset;
 		}
 		.homePage .openingBlurb {
 			margin: 0.25rem;
