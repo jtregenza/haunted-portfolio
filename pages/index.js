@@ -31,7 +31,15 @@ export default function Home() {
       </div>
 
       <a rel="noreferrer" href="https://kbbq-storytale.netlify.app/" target="_blank" className={styles.desktopIcon}>
-        <div className={styles.desktopSquare}></div>
+        <div className={styles.desktopSquare}>
+        <Image 
+					src={'/images/meat.svg'}
+					height="48"
+					width="48"
+          layout='fixed'
+					alt={'This is an icon for meat'}
+					/>
+        </div>
         <p>KBBQ threejs concept</p>
       </a>
     </div>
