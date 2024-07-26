@@ -783,7 +783,8 @@
 		margin-left: 2rem;
 	}
 
-	.homePage header > span {
+	.homePage header > span,
+	.homePage header > span img {
 		min-width: 9rem;
 	}
 
