@@ -775,16 +775,7 @@
 		margin-top: 2rem;
 	}
 
-	@media screen and (max-width: 800px) {
-		.homePage {
-			margin: 0.5rem;
-			max-width: unset;
-			height: unset;
-		}
-		.homePage .openingBlurb {
-			margin: 0.25rem;
-		}
-	}
+
 
 	.homePage header{
 		display: flex;
@@ -818,6 +809,18 @@
 		margin-bottom: 2rem;
 	}
 
+	@media screen and (max-width: 800px) {
+		.homePage {
+			margin: 0.5rem;
+			max-width: unset;
+			height: unset;
+		}
+		.homePage header,
+		.homePage .openingBlurb  {
+			margin: 0.5rem;
+		}
+	}
+
 	.colorChanger {
 		background: var(--dynamic-background-color);
 		margin-top:9px;
@@ -835,6 +838,13 @@
 		height: auto;
 		width: 3rem;
 
+	}
+
+	@media screen and (max-width: 800px) {
+		.desktopIcon {
+			display: none;
+	
+		}
 	}
 
 	.desktopSquare {
