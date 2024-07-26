@@ -834,5 +834,5 @@
 	}
 	.desktopSquare img {
 		background: var(--dynamic-background-color);
-		mask-image: url(/public/images/meat.svg);
+		mask-image: url('/images/meat.svg');
 	}
