@@ -830,10 +830,16 @@
 		z-index: 4;
 	}
 
-	.desktopIcon {
+	.iconGroup {
 		position: absolute;
 		top: 4rem;
 		left: 4rem;
+		display: flex;
+		gap: 1rem;
+		width: 40%;
+	}
+
+	.desktopIcon {
 		color: var(--dynamic-text-color);
 		font-family: var(--secondary-font-family);
 		height: auto;
@@ -860,10 +866,14 @@
 		mask-size: contain;
 	}
 
-	.desktopSquare img {
-		background: var(--dynamic-background-color);
-		mask-image: url('/images/meat.svg');
+	.desktopSquare3d {
+		height: 3rem;	
+		width: 3rem;
+		display: flex;
+		align-items: end;
+		justify-content: center;
+		background: var(--dynamic-text-color);
+		mask-image: url('/images/d20.svg');
 		mask-repeat: no-repeat;
 		mask-size: contain;
-		display: none;
 	}

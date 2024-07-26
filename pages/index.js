@@ -30,11 +30,18 @@ export default function Home() {
       <Logo/>
       </div>
 
+      <div className={styles.iconGroup}>
       <a rel="noreferrer" href="https://kbbq-storytale.netlify.app/" target="_blank" className={styles.desktopIcon}>
         <div className={styles.desktopSquare}>
         </div>
         <p>KBBQ threejs concept</p>
       </a>
+      <a rel="noreferrer" href="https://teal-speculoos-0bba9c.netlify.app/" target="_blank" className={styles.desktopIcon}>
+        <div className={styles.desktopSquare3d}>
+        </div>
+        <p>3d Storytale Site</p>
+      </a>
+      </div>
     </div>
     </Layout>
   )
