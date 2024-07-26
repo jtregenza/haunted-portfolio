@@ -786,6 +786,7 @@
 	.homePage header > span,
 	.homePage header > span img {
 		min-width: 9rem;
+		min-height: 9rem;
 	}
 
 	.main .homePage header h1 {
