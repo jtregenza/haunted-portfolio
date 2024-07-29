@@ -5,7 +5,9 @@ type: play
 image: /images/projects/3d-art/streets-of-oblivion.png
 thumbnail: /images/thumbnails/Group_90.png
 excerpt:
-  "Woodworking"
+  "As a predominatly digital creator, what you build is intagible. Taking up the hobby of wood working comes from an initial place of the tangible.
+
+There is a form of relaxation of taking the raw materials and making something out of it."
 ---
 
 ![Woodworking](/images/projects/woodworking.png "Woodworking")
