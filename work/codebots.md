@@ -14,7 +14,7 @@ Codebots is an AI-powered app building tool designed for people who aren’t cla
 My work with Codebots started by assisting in the development of the brand. I would tackle more abstract, futuristic looks for the branding and would go into 3d modelling to try and find a look that would resonate with potential users.
 
 ![A one-pager for a futuristic branding for Codebots](/images/work/cb-brand-exploration.png "A one-pager for a futuristic branding for Codebots")
-> These designs would be not be used as the robotic abstraction that was found to more alienating to potential users.
+> These designs would be not be used as the robotic abstraction that was found to be more alienating to potential users.
 
 While I would assist the Design Lead in the Product Implementation of style in for the platform, my main role would be working on the Diagram Editor. As the designer for Lampbot it was tasked to me to design and build out the Diagram Editor alongside the Diagram Editor's Chief Developer and my own Lampbot developer.
 
